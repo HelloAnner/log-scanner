@@ -5,4 +5,8 @@ package com.fr.log.transform.from;
  */
 public class FineLogTransformFromFile extends FineLogTransformFrom {
     private String sustemPath;
+
+    public FineLogTransformFromFile(String path) {
+
+    }
 }

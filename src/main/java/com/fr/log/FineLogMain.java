@@ -14,7 +14,7 @@ public class FineLogMain {
 
         // 日志转换器
         FineLogTransformer<FineLogTransformFromFile, FineSystemLogContainor> transformer = new FineSystemLogTransformer();
-        FineSystemLogContainor containor = transformer.transform(new FineLogTransformFromFile());
+        FineSystemLogContainor containor = transformer.transform(new FineLogTransformFromFile(""));
         System.out.println(containor.getCache().size());
     }
 }
